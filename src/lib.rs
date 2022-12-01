@@ -1,6 +1,7 @@
 #[macro_use]
 extern crate nom;
 
+pub use nom::IResult;
 use nom::{be_u16, le_u8, le_u16, le_u32};
 
 mod cp437;
